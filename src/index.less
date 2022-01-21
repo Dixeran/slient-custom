@@ -1,5 +1,5 @@
 @import "./index.mobile.less";
-@import url(https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css);
+@import url(https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 :root[mode="light"] {
   --blog-bg-color: #fff;
@@ -65,7 +65,6 @@ body {
   color: var(--text-color);
   font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
-  font-weight: 300;
 }
 
 table {
@@ -631,6 +630,7 @@ a {
 .day .postTitle,
 .entrylist .entrylistPosttitle {
   font-size: 19px;
+  font-weight: 500;
 
   & > a {
     position: relative;
@@ -658,6 +658,7 @@ a {
 .day .postCon,
 .entrylist .entrylistPostSummary {
   font-size: 16px;
+  font-weight: 300;
   padding: 10px 0;
 
   img {
@@ -687,6 +688,7 @@ a {
 .day .postDesc,
 .entrylist .entrylistItemPostDesc {
   text-align: right;
+  font-weight: 300;
 
   & > a {
     display: none;
@@ -700,8 +702,8 @@ a {
 
 #topics {
   .postTitle {
-    font-size: 21px;
-    font-weight: inherit;
+    font-size: 32px;
+    font-weight: 600;
   }
 
   .postBody {

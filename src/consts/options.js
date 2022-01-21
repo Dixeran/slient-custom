@@ -7,7 +7,7 @@ const options = {
     defaultTheme: 'a',
     navbars: [],
     showNavAdmin: true,
-    hljsln: false,
+    hljsln: true,
     catalog: {
         enable: false,
         index: true,

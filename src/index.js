@@ -36,7 +36,7 @@ class Silence {
         if (isPostPage()) {
             buildPostContents();
             buildPostLightbox();
-            buildHljsLineNumber();
+            // buildHljsLineNumber();
             buildPostSignature();
             buildPostSponsor();
             buildPostCommentAvatars();

@@ -18,7 +18,7 @@ function buildPostContents() {
 
         $('body').append(`<div class="esa-contents noactive"></div>`);
 
-        if (config.active) {
+        if (config.active && !(config.breakpoint && window.screen.availWidth <= Number(config.breakpoint))) {
             $toolbar.find('.contents').trigger('click');
         }
 
